@@ -90,7 +90,6 @@ collections: # A list of collections the CMS should be able to edit
         fields:
           - label: "Delivery Days"
             name: deliverydays
-            widget: list
             fields:
               - label: "Deliver Mondays"
                 name: delivermondays
