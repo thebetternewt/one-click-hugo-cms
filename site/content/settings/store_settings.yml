@@ -1,3 +1,5 @@
 deliverydays:
-  - deliveryday: '1'
-  - deliveryday: '2'
+  - deliveryday: '4'
+  - deliveryday: '3'
+  - deliveryday: '3'
+  - deliveryday: '0'
