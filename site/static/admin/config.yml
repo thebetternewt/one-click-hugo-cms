@@ -84,11 +84,11 @@ collections: # A list of collections the CMS should be able to edit
   - name: "settings"
     label: "Settings"
     files:
-      - file: "site/content/settings/_index.md"
-        label: "Home Page"
-        name: "home"
+      - file: "site/content/settings/store_settings.yml"
+        label: "Store Settings"
+        name: "store settings"
         fields:
-          - label: "Delivery Day"
-            name: deliveryday
-            widget: number
-            valueType: "int"
+          - label: "Deliver Mondays"
+            name: delivermondays
+            widget: boolean
+            default: "false"
