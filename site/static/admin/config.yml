@@ -87,7 +87,7 @@ collections: # A list of collections the CMS should be able to edit
       - file: "site/content/settings/store_settings.yml"
         label: "Store Settings"
         name: "storesettings"
-        field:
+        fields:
           - label: "Delivery Days"
             name: deliverydays
             widget: list
