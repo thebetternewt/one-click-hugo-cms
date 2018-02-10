@@ -1,1 +1,3 @@
-delivermondays: false
+delivery days:
+  - delivermondays: false
+  - delivertuesdays: false

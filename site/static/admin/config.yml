@@ -87,8 +87,16 @@ collections: # A list of collections the CMS should be able to edit
       - file: "site/content/settings/store_settings.yml"
         label: "Store Settings"
         name: "store settings"
-        fields:
-          - label: "Deliver Mondays"
-            name: delivermondays
-            widget: boolean
-            default: "false"
+        field:
+          - label: "Delivery Days"
+            name: deliverydays
+            widget: list
+            fields:
+              - label: "Deliver Mondays"
+                name: delivermondays
+                widget: boolean
+                default: "false"
+              - label: "Deliver Tuesdays"
+                name: delivertuesdays
+                widget: boolean
+                default: "false"
