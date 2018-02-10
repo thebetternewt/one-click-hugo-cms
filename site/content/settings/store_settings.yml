@@ -1,1 +1,3 @@
-deliverydays: ""
+deliverydays:
+  - deliveryday: '1'
+  - deliveryday: '2'
