@@ -1,3 +1,4 @@
 ---
-  deliveryday: 1
+deliveryday: 6
 ---
+
